@@ -7,11 +7,25 @@ To accomplised this assessment, I referenced the following materials:
 ## Installization
 1. Clone the repository
 
-If you just want to run it locally, you only git clone this repo first.
+  If you just want to run it locally, you only git clone this repo first.
 ```sh
 https://github.com/ChrisPham-0502/SQL_query_Generator.git
 ```
-Then, install some necessary libraries:
+  Then, install some necessary libraries:
 ```sh
 pip install -r setup.txt
+```
+  Finally, run the main file
+```sh
+python main.py
+```
+2. Build with Docker
+
+  First, you still need git clone the repository by the above command. Then, you run the following command:
+ ```sh
+docker build -t sql_generation .
+```
+  Make sure that you have already installed Docker desktop to smootly execute the above command. After finishing creating docker image, you will run the docker to start the program: 
+```sh
+docker run -p yourlocalhost:8080 sql_generation
 ```
