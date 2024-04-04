@@ -31,5 +31,6 @@ docker run -p yourlocalhost:8080 sql_generation
 ```
 
 ## Configuration
-In the **main.py**, you need to put your OpenAI API key to implement LLM from [this](https://openai.com/). Make sure that you have set your account into paid status to be able to request API. Unfortunately, my account has expired a year ago. 
+In the **main.py**, you need to put your OpenAI API key to implement LLM from [this](https://openai.com/). Make sure that you have set your account into paid status to be able to request API. Unfortunately, my account has expired a year ago so that I cannot test model's performance. 
+
 Second step is to assign your database url into **db** variable. You could use my url for example. I directly took note the architecture of url in file. 
