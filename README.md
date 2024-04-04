@@ -4,6 +4,17 @@ To accomplised this assessment, I referenced the following materials:
 - [[SQL agent with Langchain](https://python.langchain.com/docs/use_cases/sql/agents?fbclid=IwAR1feCLF6ocWldzjBo8EeJakpzMdkTAMNManyZrYYcc0qpTN5ZUcGUUuP2A_aem_ATlqnACZkWhVpYBZwDfUc-cQ2SB9Ieo8vBASqm0hosw7Db6hURLY_VkJvwgeT4OswS9TWHL0u9ZC8FvJYwf9Ji_p)]
 - [[My best friend - Stackoverflow](https://stackoverflow.com/)]
 
+My solution is to use Langchain to build a SQL agent capable of generating queries and automatically retrieving data from the database to respond to customer requests. All functionalities are supported within the Langchain library with specialized functions for the task. In addition, I have added an extra attribute to my SQL agent, which automatically exports to a CSV file if the user requests it, providing convenience for the customer.
+
+## Knowledge
+You need to understand files in this project to better using the repository.
+- **data.txt**: containing stock data (AAPL) in one year.
+- **postgresql_query.sql**: Setting the environment and creating table for database.
+- **main.py**: including the model and UI to interact with agent.
+- **test.ipynb**: listing possible situations to test model's performance.
+- **setup.txt**: including necessary libraries for executing the program.
+- **Dockerfile**: deploying project
+
 ## Inference
 1. Clone the repository
 
