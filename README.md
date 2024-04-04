@@ -6,7 +6,11 @@ To accomplised this assessment, I referenced the following materials:
 
 ## Installization
 1. Clone the repository
-   If you just want to run it locally, you only git clone this repo first.
+  If you just want to run it locally, you only git clone this repo first.
 ```sh
 https://github.com/ChrisPham-0502/SQL_query_Generator.git
+```
+Then, install some necessary libraries:
+```sh
+pip install -r setup.txt
 ```
