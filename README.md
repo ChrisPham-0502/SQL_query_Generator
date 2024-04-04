@@ -29,3 +29,6 @@ docker build -t sql_generation .
 ```sh
 docker run -p yourlocalhost:8080 sql_generation
 ```
+
+## Configuration
+In the **main.py**, you need to put your OpenAI API key to implement LLM from [this](https://openai.com/). 
