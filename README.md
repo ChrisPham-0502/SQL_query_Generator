@@ -7,5 +7,6 @@ To accomplised this assessment, I referenced the following materials:
 ## Installization
 1. Clone the repository
    If you just want to run it locally, you only git clone this repo first.
-   '''sh
-   '''
+```sh
+https://github.com/ChrisPham-0502/SQL_query_Generator.git
+```
